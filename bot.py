@@ -81,7 +81,7 @@ async def step_1(call: types.CallbackQuery):
         "• Момент, когда приходит ангел смерти\n"
         "• Последний шёпот шайтана\n"
         "• Вопросы в могиле: «Кто твой Господь?»\n\n"
-        "⚠️ _Смотри до конца — последние минуты самые важные._",
+        "⚠️ _Смотри до конца — последние части самые важные._",
         parse_mode="Markdown"
     )
 
@@ -280,5 +280,6 @@ async def step_4_watched(call: types.CallbackQuery):
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
+
 
 
