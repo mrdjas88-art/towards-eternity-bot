@@ -33,9 +33,9 @@ async def welcome_new_user(message: types.Message):
         
         await message.answer(
             "Ассаляму алейкум. 🌙\n\n"
-            "Добро пожаловать в бот «Навстречу Вечности».\n\n"
-            "Этот путь из 4 шагов поможет тебе задуматься\n"
-            "о самом главном — о жизни, смерти и вечности.\n\n"
+            "Добро пожаловать в бот «НАВСТРЕЧУ ВЕЧНОСТИ».\n\n"
+            "Этот путь из 4 шагов поможет тебе задуматься...\n"
+            "О самом главном — о жизни, смерти и вечности.\n\n"
             "Готов сделать первый шаг?",
             reply_markup=keyboard
         )
@@ -280,3 +280,4 @@ async def step_4_watched(call: types.CallbackQuery):
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
+
